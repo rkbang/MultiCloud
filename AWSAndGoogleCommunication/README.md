@@ -2,7 +2,10 @@
 # Private communication setup between AWS and GCP
 
 ## Overview
-Creating a communication channel between a VM instance in GCP and EC2 instance in AWS. Interconnect the two architectures in different cloud, in a completely private way, using the Virtual Private Gateway, Customer Gateway, Cloud Routers, Cloud VPN, among other services.
+Creating a communication channel between a VM instance in GCP and EC2 instance in AWS in a completely private way, using the Virtual Private Gateway, Customer Gateway, Cloud Routers, Cloud VPN, among other services.
+
+ ## Design
+ ![](design.png)
 
  ## Implementation
  - Create a GCP project with name aws-gcp and make sure billing is enabled.
