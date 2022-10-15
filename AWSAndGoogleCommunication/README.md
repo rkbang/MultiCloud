@@ -22,6 +22,9 @@ We have two VPN tunnels between AWS and GCP; Hence we create two customer gatewa
 
 It also includes multiple security groups to provide access for tcp, ssh etc. traffic. AWS instance is assigned these security group for respective accesses.
 
+### GCP 
+
+Architecture in GCP is kind of similar to that of AWS. GCP also has a VPC along with a subnet. Our only instance in GCP resides in that subnet. GCP also has two gateway, one for internet and other for VPN. It has four tunnels and a router for each tunnel. Router is allowing the traffic to AWS.  It has four firewalls to allow 4 different types of traffic.
 
 ## Implementation
 
